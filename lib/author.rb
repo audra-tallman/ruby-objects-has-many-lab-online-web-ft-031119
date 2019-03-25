@@ -8,6 +8,10 @@ def initialize(name)
   @@all << self
 end 
 
+def self.all
+  @@all
+end 
+
 def post(post)
   post.author = self
 end 
