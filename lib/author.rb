@@ -13,12 +13,12 @@ def post(post)
 end 
 
 
+def add_post(title)
+
 def add_post_by_title(title)
   post = Song.new(title)
   post.author = self
 end
-
-
 
 
 def self.post_count
