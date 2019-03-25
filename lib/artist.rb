@@ -23,7 +23,7 @@ def add_song_by_name(name)
 end
 
 def songs
-  Song.all.select {\
+  Song.all.select {|song| song.artist == self}
 end 
 
 
