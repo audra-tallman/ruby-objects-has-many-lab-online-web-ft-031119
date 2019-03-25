@@ -18,6 +18,7 @@ end
 
 def add_post(title)
   post.author = self
+end
 
 def add_post_by_title(title)
   post = Song.new(title)
